@@ -1,0 +1,176 @@
+.container-fluid{
+    padding: 10px;
+    flex: 1;
+}
+html,body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section {
+    display: block;
+    height:100vh;
+    width: 96vw;
+}
+  
+
+.home{
+    color: aliceblue;
+    text-align: center;
+}
+
+.home img{
+    border-radius: 50%;
+}
+
+.header1 {
+    font-family: 'Righteous', cursive;
+    font-size: 6vw;
+}
+  
+.header2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.4vw;
+}
+.header3 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.2vw;
+}
+.head{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    color: #20f482;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+.link1 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.8vw;
+    color: inherit;
+    margin: 0px 5px 0px 5px;
+    transition: 0.5s;
+}
+  
+.link1:hover {
+    color: #20f482;
+}
+hr{
+    margin-top: -0.9cm;
+    border-style: solid;
+    border-width: 4px;
+    color: aliceblue;
+}
+
+
+
+.aboutMeContent{
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.training{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.card{
+    width: 20%;
+    height: 15%;
+    display: inline-block;
+    box-shadow: 2px 2px 5px aliceblue ;
+    border-radius: 5px; 
+    margin: 2%;
+    background-color: black;
+    
+   }
+
+.image img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+ 
+}
+
+.title{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: aliceblue;
+ 
+}
+.work{
+    display: inline-block;
+}
+
+.coursesCert{
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 785px) {
+    .header1 {
+      font-size: 8vw;
+    }
+    .link1 {
+      font-size: 4vw;
+    }
+  }
+  
+@media screen and (max-width: 765px) {
+    
+    .header1 {
+      font-size: 9vw;
+    }
+    .header3{
+        text-align: center;
+        font-size: 5vw;
+    }
+    .header2 {
+        font-size: 3vw;
+    }
+    .link1 {
+      font-size: 5vw;
+    }
+    .aboutMeContent{
+        font-size: 4vw ;
+        margin: 1%;
+        padding: 0%;
+        align-items: inherit;
+    }
+    .head{
+        font-size: 30px;
+        text-align: left;
+    }
+    hr{
+        width: 90%;
+        margin-top: -5vw;
+    }
+    .card{
+        width: 40%;
+    }
+    .title{
+        font-size: 11px;
+    }
+
+}
+  
+@media screen and (min-width: 1390px) {
+    .header2 {
+      font-size: 1.1vw;
+    }
+}
