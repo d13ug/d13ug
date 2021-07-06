@@ -14,9 +14,20 @@ html,body {
     transform: translate(-50%, -50%);
 }
 section {
-    display: block;
     height:100vh;
     width: 96vw;
+}
+.resume{
+    margin-right: 1%;
+    margin-bottom: 1%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.resume button{
+    
+    
 }
   
 
@@ -120,6 +131,22 @@ hr{
 .coursesCert{
   display: inline-block;
 }
+.skills{
+    margin-bottom: 2%;
+}
+
+.progress{
+    width: 30%;
+    display: inline-block;
+    height: max-content;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    background-color: rgb(175, 246, 248);
+}
+.footer{
+
+}
 
 
 @media screen and (max-width: 785px) {
@@ -133,6 +160,12 @@ hr{
   
 @media screen and (max-width: 765px) {
     
+    .resume button{
+        height: 35px;
+        width: 80px;
+        font-size: 9px;
+        text-align: center;
+    }
     .header1 {
       font-size: 9vw;
     }
@@ -165,6 +198,14 @@ hr{
     }
     .title{
         font-size: 11px;
+    }
+    .progress{
+        height: 30px;
+        width: 45%;
+        font-size: 15px;
+    }
+    .progress-bar{
+        height: 30px;
     }
 
 }
