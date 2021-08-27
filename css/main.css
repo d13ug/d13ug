@@ -86,6 +86,8 @@ hr{
     font-weight: 100;
     color: aliceblue;
     font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
@@ -134,7 +136,10 @@ hr{
 .skills{
     margin-bottom: 2%;
 }
-
+.progress-pading{
+    padding-left: 2%;
+    padding-right: 2%;
+}
 .progress{
     width: 30%;
     display: inline-block;
@@ -143,9 +148,7 @@ hr{
     font-weight: bold;
     margin-bottom: 1%;
     background-color: rgb(175, 246, 248);
-}
-.footer{
-
+    
 }
 
 
